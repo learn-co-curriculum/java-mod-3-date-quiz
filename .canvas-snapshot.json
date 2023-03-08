@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 1,
-    "points_possible": 1.0,
+    "question_count": 7,
+    "points_possible": 7.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20002,
     "show_correct_answers_last_attempt": true,
-    "version_number": 2,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -99,14 +99,14 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 1197,
+          "id": "1197",
           "text": "algorithm",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7824,
+          "id": "7824",
           "text": "Algorithm",
           "comments": "",
           "comments_html": "",
@@ -203,7 +203,7 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 1903,
+          "id": "1903",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -211,7 +211,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 8357,
+          "id": "8357",
           "text": "",
           "comments": "",
           "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
@@ -219,7 +219,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
         },
         {
-          "id": 6647,
+          "id": "6647",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -227,7 +227,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 2336,
+          "id": "2336",
           "text": "",
           "comments": "",
           "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
@@ -235,7 +235,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 4992,
+          "id": "4992",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -307,22 +307,22 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 4874,
+          "id": "4874",
           "text": "Declarative Programming",
           "left": "Declarative Programming",
           "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
           "comments": "",
           "comments_html": "",
-          "match_id": 1924
+          "match_id": 190
         },
         {
-          "id": 1851,
+          "id": "1851",
           "text": "Imperative Programming",
           "left": "Imperative Programming",
           "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
           "comments": "",
           "comments_html": "",
-          "match_id": 8858
+          "match_id": 8403
         }
       ],
       "variables": null,
@@ -332,15 +332,15 @@
       "matches": [
         {
           "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 1924
+          "match_id": 190
         },
         {
           "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 8858
+          "match_id": 8403
         },
         {
           "text": "I don't know.",
-          "match_id": 3954
+          "match_id": 6446
         }
       ],
       "matching_answer_incorrect_matches": "I don't know."
@@ -436,7 +436,7 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 6171,
+          "id": "6171",
           "text": "singular",
           "comments": "",
           "comments_html": "",
@@ -444,7 +444,7 @@
           "blank_id": "answer1"
         },
         {
-          "id": 6457,
+          "id": "6457",
           "text": "plural",
           "comments": "",
           "comments_html": "",
