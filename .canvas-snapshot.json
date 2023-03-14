@@ -1,10 +1,10 @@
 {
   "quiz": {
     "id": 44844,
-    "title": "Quiz - Dates",
+    "title": "Quiz 4 - Dates",
     "html_url": "https://learning.flatironschool.com/courses/6677/quizzes/44844",
     "mobile_url": "https://learning.flatironschool.com/courses/6677/quizzes/44844?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-3-date-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-3-date-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-3-date-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-3-date-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Note any answers that were marked incorrect,\nso you can study the relevant material and try this quiz again.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20002,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -87,30 +87,56 @@
       "quiz_group_id": null,
       "assessment_question_id": 526027,
       "position": null,
-      "question_name": "Short Answer Question",
-      "question_type": "short_answer_question",
-      "question_text": "<p>A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
+      "question_name": "Multiple Answers Question",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Which of these classes is from the legacy date API? Select all that apply.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/date-and-calendar-class?module_item_id=545895\">Review the Date and Calendar Class Lesson</a></li><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/date-and-time-api?module_item_id=545896\">Review the Date and Time API Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "1197",
-          "text": "algorithm",
+          "id": 558,
+          "text": "",
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "comments_html": "<p>Not quite. <code>LocalDate</code> is part of the new Date and Time API introduced in\nJava 8.</p>",
+          "weight": 0.0,
+          "html": "<p>LocalDate</p>"
         },
         {
-          "id": "7824",
-          "text": "Algorithm",
+          "id": 8534,
+          "text": "",
           "comments": "",
-          "comments_html": "",
-          "weight": 100
+          "comments_html": "<p>Not quite. <code>LocalTime</code> is part of the new Date and Time API introduced in\nJava 8.</p>",
+          "weight": 0.0,
+          "html": "<p>LocalTime</p>"
+        },
+        {
+          "id": 9753,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! <code>Calendar</code>, while it was an update to the <code>Date</code> class, is still\nconsidered to be part of the Legacy Date API.</p>",
+          "weight": 100.0,
+          "html": "<p>Calendar</p>"
+        },
+        {
+          "id": 356,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Not quite. <code>LocalDateTime</code> is part of the new Date and Time API introduced in\nJava 8.</p>",
+          "weight": 0.0,
+          "html": "<p>LocalDateTime</p>"
+        },
+        {
+          "id": 3713,
+          "text": "",
+          "comments": "",
+          "comments_html": "<p>Correct! <code>Date</code> is part of the Legacy Date API.</p>",
+          "weight": 100.0,
+          "html": "<p>Date</p>"
         }
       ],
       "variables": null,
@@ -128,53 +154,45 @@
       "position": null,
       "question_name": "Multiple Choice Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "question_text": "<p>In Java, what date-time was chosen as the \"beginning of time\"?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/date-and-calendar-class?module_item_id=545895\">Review the Date and Calendar Class Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4859,
+          "id": 5411,
           "text": "",
-          "html": "<p>O(n)</p>",
+          "html": "<p>January 1, 2000 00:00:00</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 715,
+          "text": "",
+          "html": "<p>January 1, 1970 00:00:00</p>",
+          "comments": "",
+          "comments_html": "",
           "weight": 100.0
         },
         {
-          "id": 9645,
+          "id": 5159,
           "text": "",
-          "html": "<p>O(1)</p>",
+          "html": "<p>January 1, 1965 00:00:00</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
+          "comments_html": "",
           "weight": 0.0
         },
         {
-          "id": 5489,
+          "id": 2065,
           "text": "",
-          "html": "<p>O(n²)</p>",
+          "html": "<p>January 1, 1995 00:00:00</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 5713,
-          "text": "",
-          "html": "<p>O(log n)</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 3505,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "comments_html": "",
           "weight": 0.0
         }
       ],
@@ -191,64 +209,64 @@
       "quiz_group_id": null,
       "assessment_question_id": 526029,
       "position": null,
-      "question_name": "Multiple Answers Question",
-      "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an array of lunch menu items:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Since you're super hungry and super excited about lunch, use the <code>.each</code> method\nto enumerate over the array and output a string to the terminal with each lunch\nmenu item with an <code>\"!\"</code> at the end.</p>\n\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
+      "question_name": "Matching Question",
+      "question_type": "matching_question",
+      "question_text": "<p>Match the term with the correct description.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/date-and-time-api?module_item_id=545896\">Review the Date and Time API Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "1903",
-          "text": "",
+          "id": 7549,
+          "text": "LocalDate",
+          "left": "LocalDate",
+          "right": "Immutable class that only holds the date values of a component without a time\nor timezone associated with it.",
           "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
+          "comments_html": "",
+          "match_id": 7812
         },
         {
-          "id": "8357",
-          "text": "",
+          "id": 5918,
+          "text": "LocalTime",
+          "left": "LocalTime",
+          "right": "Immutable class that only holds the time values of a component without a date\nor timezone associated with it.",
           "comments": "",
-          "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
+          "comments_html": "",
+          "match_id": 9478
         },
         {
-          "id": "6647",
-          "text": "",
+          "id": 1320,
+          "text": "LocalDateTime",
+          "left": "LocalDateTime",
+          "right": "Immutable date-time object and can represent the time with nanosecond\nprecision.",
           "comments": "",
-          "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
-          "weight": 100.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "2336",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
-          "weight": 0.0,
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
-        },
-        {
-          "id": "4992",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "comments_html": "",
+          "match_id": 2128
         }
       ],
       "variables": null,
       "formulas": null,
       "answer_tolerance": null,
       "formula_decimal_places": null,
-      "matches": null,
-      "matching_answer_incorrect_matches": null
+      "matches": [
+        {
+          "text": "Immutable class that only holds the date values of a component without a time\nor timezone associated with it.",
+          "match_id": 7812
+        },
+        {
+          "text": "Immutable class that only holds the time values of a component without a date\nor timezone associated with it.",
+          "match_id": 9478
+        },
+        {
+          "text": "Immutable date-time object and can represent the time with nanosecond\nprecision.",
+          "match_id": 2128
+        }
+      ],
+      "matching_answer_incorrect_matches": ""
     },
     {
       "id": 305884,
@@ -256,30 +274,48 @@
       "quiz_group_id": null,
       "assessment_question_id": 526030,
       "position": null,
-      "question_name": "True/False Question",
-      "question_type": "true_false_question",
-      "question_text": "<p>When we run <code>git add .</code>, <strong>all</strong> files that have been created or modified since\nthe last commit are staged and will be included in the next commit.&nbsp;</p>",
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What would the output of this code snippet be:</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kn\">import</span> <span class=\"nn\">java.time.LocalDate</span><span class=\"o\">;</span>\n\n<span class=\"kd\">class</span> <span class=\"nc\">QuizExample</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">LocalDate</span> <span class=\"n\">date</span> <span class=\"o\">=</span> <span class=\"nc\">LocalDate</span><span class=\"o\">.</span><span class=\"na\">of</span><span class=\"o\">(</span><span class=\"mi\">2015</span><span class=\"o\">,</span> <span class=\"mi\">10</span><span class=\"o\">,</span> <span class=\"mi\">21</span><span class=\"o\">);</span>\n\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">date</span><span class=\"o\">.</span><span class=\"na\">getMonth</span><span class=\"o\">());</span> \n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/date-and-time-api?module_item_id=545896\">Review the Date and Time API Lesson</a></li></ul><p></p>",
       "answers": [
         {
+          "id": 8650,
+          "text": "",
+          "html": "<p>10</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. Be sure to review the <code>.gitignore</code> source for this question. You'll\nget it next time!</p>",
-          "text": "True",
-          "weight": 0,
-          "id": 1111
+          "comments_html": "<p>Not quite. The <code>getMonth()</code> method actually returns the enum <code>Month</code> as a\n<code>String</code> value.</p>",
+          "weight": 0.0
         },
         {
+          "id": 4254,
+          "text": "",
+          "html": "<p>9</p>",
           "comments": "",
-          "comments_html": "",
-          "text": "False",
-          "weight": 100,
-          "id": 5398
+          "comments_html": "<p>Not quite. The Legacy Date API started its months off 0, instead of 1 but the\nnew Date and Time API will return the proper month number as we know it.\nAlso, the <code>getMonth()</code> method will actually return the <code>Month</code> enum as a\n<code>String</code> value.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 8198,
+          "text": "",
+          "html": "<p>OCTOBER</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! The <code>date.getMonth()</code> method returns the enum <code>Month</code> as a <code>String</code>\nvalue.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 631,
+          "text": "",
+          "html": "<p>NOVEMBER</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. The Legacy Date API had the months off when trying to retrieve the\nmonth.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -295,120 +331,48 @@
       "quiz_group_id": null,
       "assessment_question_id": 526031,
       "position": null,
-      "question_name": "Matching Question",
-      "question_type": "matching_question",
-      "question_text": "<p>Match the term with the correct description.</p>",
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What would the output of this code snippet be:</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kn\">import</span> <span class=\"nn\">java.time.LocalDateTime</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">java.time.format.DateTimeFormatter</span><span class=\"o\">;</span>\n\n<span class=\"kd\">class</span> <span class=\"nc\">QuizExample</span> <span class=\"o\">{</span>\n  <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n    <span class=\"nc\">DateTimeFormatter</span> <span class=\"n\">formatter</span> <span class=\"o\">=</span> <span class=\"nc\">DateTimeFormatter</span><span class=\"o\">.</span><span class=\"na\">ofPattern</span><span class=\"o\">(</span><span class=\"s\">\"EEE MM/dd/uu HH:mm:ss\"</span><span class=\"o\">);</span>\n\n    <span class=\"nc\">LocalDateTime</span> <span class=\"n\">dateTime</span> <span class=\"o\">=</span> <span class=\"nc\">LocalDateTime</span><span class=\"o\">.</span><span class=\"na\">of</span><span class=\"o\">(</span><span class=\"mi\">2022</span><span class=\"o\">,</span> <span class=\"mi\">9</span><span class=\"o\">,</span> <span class=\"mi\">14</span><span class=\"o\">,</span> <span class=\"mi\">14</span><span class=\"o\">,</span> <span class=\"mi\">45</span><span class=\"o\">,</span> <span class=\"mi\">0</span><span class=\"o\">);</span>\n    <span class=\"nc\">String</span> <span class=\"n\">formattedDateTime</span> <span class=\"o\">=</span> <span class=\"n\">formatter</span><span class=\"o\">.</span><span class=\"na\">format</span><span class=\"o\">(</span><span class=\"n\">dateTime</span><span class=\"o\">);</span>\n    <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">formattedDateTime</span><span class=\"o\">);</span>\n  <span class=\"o\">}</span>\n<span class=\"o\">}</span> \n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/parsing-and-formatting-dates?module_item_id=545897\">Review the Parsing and Formatting Dates Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "4874",
-          "text": "Declarative Programming",
-          "left": "Declarative Programming",
-          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
+          "id": 8587,
+          "text": "",
+          "html": "<p>Wednesday 9/14/2022 14:45:00</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. Review the formatting patterns from the Parsing and Formatting\nDates Lesson.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 624,
+          "text": "",
+          "html": "<p>Wednesday 9/14/22 14:45:00</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. Review the formatting patterns from the Parsing and Formatting\nDates Lesson.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9266,
+          "text": "",
+          "html": "<p>Wed 9/14/22 14:45:00</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. Review the formatting patterns from the Parsing and Formatting\nDates Lesson.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 1944,
+          "text": "",
+          "html": "<p>Wed 09/14/22 14:45:00</p>",
           "comments": "",
           "comments_html": "",
-          "match_id": 190
-        },
-        {
-          "id": "1851",
-          "text": "Imperative Programming",
-          "left": "Imperative Programming",
-          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 8403
-        }
-      ],
-      "variables": null,
-      "formulas": null,
-      "answer_tolerance": null,
-      "formula_decimal_places": null,
-      "matches": [
-        {
-          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 190
-        },
-        {
-          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 8403
-        },
-        {
-          "text": "I don't know.",
-          "match_id": 6446
-        }
-      ],
-      "matching_answer_incorrect_matches": "I don't know."
-    },
-    {
-      "id": 305886,
-      "quiz_id": 44844,
-      "quiz_group_id": null,
-      "assessment_question_id": 526032,
-      "position": null,
-      "question_name": "Multiple Dropdowns Question",
-      "question_type": "multiple_dropdowns_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">module</span> <span class=\"nn\">Talk</span>\n  <span class=\"k\">module</span> <span class=\"nn\">Phrases</span>\n    <span class=\"k\">def</span> <span class=\"nf\">hello</span>\n      <span class=\"s2\">\"Hello!\"</span>\n    <span class=\"k\">end</span>\n\n    <span class=\"k\">def</span> <span class=\"nf\">goodbye</span>\n      <span class=\"s2\">\"Good bye!\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n\n  <span class=\"k\">module</span> <span class=\"nn\">Teachers</span>\n    <span class=\"k\">def</span> <span class=\"nf\">teach</span>\n      <span class=\"s2\">\"Repeat after me.\"</span>\n    <span class=\"k\">end</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>The code sample above is an example of [a1] modules. To access the <code>Teachers</code>\nmodule to include it in a class, we would type include [a2].</p>",
-      "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "",
-      "answers": [
-        {
-          "id": 7079,
-          "text": "namespaced",
-          "comments": "",
-          "comments_html": "<p>Correct! Both <code>Teachers</code> and <code>Phrases</code> are namespaced inside of <code>Talk</code>. They\ncan be accessed using <code>::</code>.</p>",
-          "weight": 100.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 3704,
-          "text": "subclass inherited",
-          "comments": "",
-          "comments_html": "<p>There aren't any classes, nor any subclass inheritance, in the syntax above.\nYou might want to review the resource/s for this question.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 3105,
-          "text": "I don't know",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "blank_id": "a1"
-        },
-        {
-          "id": 7861,
-          "text": "Talk::Teachers",
-          "comments": "",
-          "comments_html": "<p>Correct! To <code>include</code> the <code>Teachers</code> module, we need to access it using <code>::</code>\non the module that contains it.</p>",
-          "weight": 100.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 3970,
-          "text": "Teachers::Talk",
-          "comments": "",
-          "comments_html": "<p>When using <code>::</code> to access a nested module, we put the module that contains the\nother module on the left side of the double colon.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
-        },
-        {
-          "id": 3290,
-          "text": "Talk.Teachers",
-          "comments": "",
-          "comments_html": "<p>Not quite. This looks more like we're trying to call a method on <code>Talk</code>.</p>",
-          "weight": 0.0,
-          "blank_id": "a2"
+          "weight": 100.0
         }
       ],
       "variables": null,
@@ -419,37 +383,53 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 305887,
+      "id": 305886,
       "quiz_id": 44844,
       "quiz_group_id": null,
-      "assessment_question_id": 526033,
+      "assessment_question_id": 526032,
       "position": null,
-      "question_name": "Fill in Multiple Blanks Question",
-      "question_type": "fill_in_multiple_blanks_question",
-      "question_text": "<p>In order for Active Record to work, it is necessary to follow the naming\nconventions it is expecting. Specifically, the name of the class must be\n[answer1] and the name of the table must be [answer2].</p>",
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>What would the output of this code snippet be:</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kn\">import</span> <span class=\"nn\">java.time.LocalDate</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">java.time.format.ResolverStyle</span><span class=\"o\">;</span>\n<span class=\"kn\">import</span> <span class=\"nn\">java.time.format.DateTimeFormatter</span><span class=\"o\">;</span>\n\n<span class=\"kd\">class</span> <span class=\"nc\">QuizExample</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">DateTimeFormatter</span> <span class=\"n\">formatter</span> <span class=\"o\">=</span> <span class=\"nc\">DateTimeFormatter</span><span class=\"o\">.</span><span class=\"na\">ofPattern</span><span class=\"o\">(</span><span class=\"s\">\"MM-dd-uuuu\"</span><span class=\"o\">).</span><span class=\"na\">withResolverStyle</span><span class=\"o\">(</span><span class=\"nc\">ResolverStyle</span><span class=\"o\">.</span><span class=\"na\">STRICT</span><span class=\"o\">);</span>\n\n        <span class=\"nc\">String</span> <span class=\"n\">date</span> <span class=\"o\">=</span> <span class=\"s\">\"02-29-2022\"</span><span class=\"o\">;</span>\n        <span class=\"nc\">LocalDate</span> <span class=\"n\">localDate</span> <span class=\"o\">=</span> <span class=\"nc\">LocalDate</span><span class=\"o\">.</span><span class=\"na\">parse</span><span class=\"o\">(</span><span class=\"n\">date</span><span class=\"o\">,</span> <span class=\"n\">formatter</span><span class=\"o\">);</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">localDate</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/parsing-and-formatting-dates?module_item_id=545897\">Review the Parsing and Formatting Dates Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "6171",
-          "text": "singular",
+          "id": 1559,
+          "text": "",
+          "html": "<p>2022-03-01</p>",
           "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer1"
+          "comments_html": "<p>Not quite. Take a look at the <code>ResolverStyle</code>. If the <code>ResolverStyle</code> was set\nto <code>ResolverStyle.LENIENT</code>, then this would be the answer.</p>",
+          "weight": 0.0
         },
         {
-          "id": "6457",
-          "text": "plural",
+          "id": 2514,
+          "text": "",
+          "html": "<p>2022-02-28</p>",
           "comments": "",
-          "comments_html": "",
-          "weight": 100.0,
-          "blank_id": "answer2"
+          "comments_html": "<p>Not quite. Take a look at the <code>ResolverStyle</code>. If the <code>ResolverStyle</code> was set\nto <code>ResolverStyle.SMART</code>, then this would be the answer.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 5537,
+          "text": "",
+          "html": "<p>2022-02-29</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. We have a <code>ResolverStyle</code> to help validate if this is a real date.\nAnd this date does not exist as 2022 was not a leap year.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 9401,
+          "text": "",
+          "html": "<p>DateTimeParseException is thrown</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Since we have a <code>ResolverStyle</code> and the <code>ResolverStyle</code> was set to\n<code>ResolverStyle.STRICT</code>, this would mean Java will not correct the date if it\nis invalid. Since the date does not exist, it will throw a\n<code>DateTimeParseException</code> like so:\nException in thread \"main\" java.time.format.DateTimeParseException: Text\n'02-29-2022' could not be parsed: Invalid date 'February 29' as '2022' is not\na leap year</p>",
+          "weight": 100.0
         }
       ],
       "variables": null,
